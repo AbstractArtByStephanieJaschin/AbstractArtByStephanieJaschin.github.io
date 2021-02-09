@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+.button{
+		  background-color: #4b4b4b; /*Main Background color of the button*/
+		  position: relative;
+		  width: 30%;
+		  left: 50%;
+		  margin-left: -15%;
+		  height: 70px;
+		  display:inline-block;
+		  border-bottom: solid 5px #3d3d3d; /*Using a darker tone for the bottom border, we are able to create this Flat UI Design */
+		  text-align: center;
+		  line-height:70px;
+		  font-family:segoe ui light;
+		  font-weight:900; /*We need a very large font-weight to balance this thin font out*/
+		  text-decoration: none; /*Text of Button (which is represanting a URL) doesn't change after clicking it once*/
+		  color: black;
+		  font-size: 100%; /*scales font size based on window size*/
+}
+
+.impressum, .datenschutzerklaerung a {
+	color: white;
+	text-decoration: none;
+}
+
+.infotext, .impressum, .datenschutzerklaerung{
+	color: white;
+	padding: 35px 14px 35px 14px;
+	font-family:segoe ui light;
+	font-weight:900; /*We need a very large font-weight to balance this thin font out*/
+}
+
+
+@media screen and (min-width:768px){
+	.infotext, .impressum, .datenschutzerklaerung{
+		font-size: 28px;
+		border-radius: 5px;
+		padding: 95px 270px 95px 270px;
+	}
+}
+
+
+footer{
+	border-top: 1px solid #dad8de;
+	margin-top: 1.5rem;
+	height: 6rem;
+	display: block;
+}
+
+footer .legal{
+	text-align: center;
+	margin-bottom: .2rem;
+	color: gray;
+	font-family: Open Sans, Arial, Sans;
+	font-size: .875rem;
+	font-weight: 400;
+	padding-top: 1rem;
+}
+
+.legal a{
+	color: #bbb9b7;
+	text-decoration: none;
+	padding-right: 1rem;
+}
